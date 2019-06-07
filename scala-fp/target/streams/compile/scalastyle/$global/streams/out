@@ -1,0 +1,27 @@
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /Users/shun/workspace/scala-fp/scalastyle-config.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/shun/workspace/scala-fp/src/main/scala/Calc.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/shun/workspace/scala-fp/src/main/scala/Calc.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala:4:44: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/shun/workspace/scala-fp/src/main/scala/Main.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/Main.scala:1: Header does not match expected text[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/shun/workspace/scala-fp/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 5 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 10 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 18 ms[0m

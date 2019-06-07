@@ -1,0 +1,195 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          StreamStudy/StreamStudy.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>trait StreamStudy[+A]{
+</span>2 <span style=''>
+</span>3 <span style=''>  def headOption: Option[A] = this match{
+</span>4 <span style=''>    case EmptyStream =&gt; </span><span style='background: #F0ADAD'>None</span><span style=''>
+</span>5 <span style=''>    case Cons(h, t) =&gt; </span><span style='background: #F0ADAD'>Some(h())</span><span style=''>
+</span>6 <span style=''>  }
+</span>7 <span style=''>
+</span>8 <span style=''>  def tail: StreamStudy[A] = this match{
+</span>9 <span style=''>    case EmptyStream =&gt; </span><span style='background: #F0ADAD'>throw new NoSuchMethodError()</span><span style=''>
+</span>10 <span style=''>    case Cons(h, t) =&gt; </span><span style='background: #F0ADAD'>t()</span><span style=''>
+</span>11 <span style=''>  }
+</span>12 <span style=''>
+</span>13 <span style=''>}
+</span>14 <span style=''>
+</span>15 <span style=''>case object EmptyStream extends StreamStudy[Nothing]
+</span>16 <span style=''>
+</span>17 <span style=''>case class Cons[+A](h: () =&gt; A, t: () =&gt; StreamStudy[A]) extends StreamStudy[A]
+</span>18 <span style=''>
+</span>19 <span style=''>object StreamStudy {
+</span>20 <span style=''>  def cons[A](h: =&gt; A, t: =&gt; StreamStudy[A]): StreamStudy[A] = {
+</span>21 <span style=''>    lazy val headResult = h
+</span>22 <span style=''>    lazy val tailResult = t
+</span>23 <span style=''>    </span><span style='background: #F0ADAD'>Cons(() =&gt; headResult, () =&gt; tailResult)</span><span style=''>
+</span>24 <span style=''>
+</span>25 <span style=''>  }
+</span>26 <span style=''>  def empty[A]: StreamStudy[A] = EmptyStream
+</span>27 <span style=''>
+</span>28 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          4
+        </td>
+        <td>
+          42
+        </td>
+        <td>
+          90
+          -
+          94
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.None
+        </td>
+        <td style="background: #F0ADAD">
+          scala.None
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          44
+        </td>
+        <td>
+          118
+          -
+          127
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Some.apply
+        </td>
+        <td style="background: #F0ADAD">
+          scala.Some.apply[A](h.apply())
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          43
+        </td>
+        <td>
+          123
+          -
+          126
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Function0.apply
+        </td>
+        <td style="background: #F0ADAD">
+          h.apply()
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          45
+        </td>
+        <td>
+          198
+          -
+          227
+        </td>
+        <td>
+          Throw
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          throw new java.lang.NoSuchMethodError()
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          46
+        </td>
+        <td>
+          251
+          -
+          254
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Function0.apply
+        </td>
+        <td style="background: #F0ADAD">
+          t.apply()
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          47
+        </td>
+        <td>
+          544
+          -
+          584
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Cons.apply
+        </td>
+        <td style="background: #F0ADAD">
+          Cons.apply[A]((() =&gt; headResult), (() =&gt; tailResult))
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

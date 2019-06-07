@@ -1,0 +1,322 @@
+<scoverage 
+statement-count="66" statements-invoked="19" statement-rate="28.79" branch-rate="33.33" version="1.0" timestamp="1559887784915">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="66" statements-invoked="19" statement-rate="28.79">
+            <classes>
+                <class 
+                name="TypeClassStudy" filename="TypeClassStudy.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/TypeClassStudy/sum" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="TypeClassStudy" class-type="Object" full-class-name="TypeClassStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="sum" start="587" end="599" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="TypeClassStudy" class-type="Object" full-class-name="TypeClassStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="sum" start="569" end="575" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="TypeClassStudy" class-type="Object" full-class-name="TypeClassStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="sum" start="556" end="600" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="TypeClassStudy.Rational.RationalAdditve" filename="TypeClassStudy.scala" statement-count="16" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/RationalAdditve/zero" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="zero" start="474" end="488" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/RationalAdditve/plus" statement-count="15" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="414" end="427" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="305" end="306" line="15" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="321" end="438" line="16" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="347" end="348" line="17" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="399" end="412" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="407" end="412" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="422" end="427" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="283" end="292" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="325" end="334" line="16" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="374" end="428" line="19" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="374" end="428" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="391" end="396" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="288" end="292" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="383" end="412" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="RationalAdditve" class-type="Object" full-class-name="TypeClassStudy.Rational.RationalAdditve" source="/Users/shun/workspace/scala-fp/src/main/scala/TypeClassStudy.scala" method="plus" start="330" end="334" line="16" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Calc" filename="Calc.scala" statement-count="19" statements-invoked="19" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Calc/isPrime" statement-count="9" statements-invoked="9" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="542" end="552" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="489" end="494" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="510" end="511" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="496" end="501" line="21" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="515" end="533" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="507" end="554" line="21" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="507" end="554" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="496" end="501" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="isPrime" start="525" end="526" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Calc/sum" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="sum" start="135" end="140" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="sum" start="132" end="133" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="sum" start="119" end="141" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Calc/div" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="281" end="281" line="13" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="302" end="344" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="285" end="301" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="281" end="281" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="349" end="390" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="370" end="390" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Calc" class-type="Class" full-class-name="Calc" source="/Users/shun/workspace/scala-fp/src/main/scala/Calc.scala" method="div" start="302" end="344" line="13" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="StreamStudy" filename="StreamStudy/StreamStudy.scala" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/StreamStudy/headOption" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="StreamStudy" class-type="Trait" full-class-name="StreamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala" method="headOption" start="118" end="127" line="5" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="StreamStudy" class-type="Trait" full-class-name="StreamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala" method="headOption" start="123" end="126" line="5" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="StreamStudy" class-type="Trait" full-class-name="StreamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala" method="headOption" start="90" end="94" line="4" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/StreamStudy/cons" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="StreamStudy" class-type="Object" full-class-name="StreamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala" method="cons" start="544" end="584" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/StreamStudy/tail" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="StreamStudy" class-type="Trait" full-class-name="StreamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala" method="tail" start="251" end="254" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="StreamStudy" class-type="Trait" full-class-name="StreamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/StreamStudy/StreamStudy.scala" method="tail" start="198" end="227" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="ImplicitParamStudy.Connection" filename="ImplicitParamStudy.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Connection/executeQuery" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Connection" class-type="Class" full-class-name="ImplicitParamStudy.Connection" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="executeQuery" start="100" end="120" line="4" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Connection" class-type="Class" full-class-name="ImplicitParamStudy.Connection" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="executeQuery" start="92" end="121" line="4" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Main" filename="Main.scala" statement-count="12" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Main/fact" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="fact" start="236" end="256" line="14" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="fact" start="241" end="246" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="fact" start="236" end="256" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="fact" start="227" end="230" line="14" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="fact" start="219" end="225" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="fact" start="248" end="255" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Main/series" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="series" start="145" end="150" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="series" start="138" end="160" line="10" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="series" start="117" end="120" line="8" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="series" start="138" end="160" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="series" start="102" end="108" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="/Users/shun/workspace/scala-fp/src/main/scala/Main.scala" method="series" start="152" end="159" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="ImplicitParamStudy" filename="ImplicitParamStudy.scala" statement-count="8" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/ImplicitParamStudy/createTitle" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="createTitle" start="194" end="239" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="createTitle" start="212" end="238" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/ImplicitParamStudy/selectTitle" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="selectTitle" start="294" end="324" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="selectTitle" start="313" end="322" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/ImplicitParamStudy/deleteTitle" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="deleteTitle" start="507" end="552" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="deleteTitle" start="525" end="551" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/ImplicitParamStudy/updateTitle" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="updateTitle" start="411" end="437" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="ImplicitParamStudy" class-type="Object" full-class-name="ImplicitParamStudy" source="/Users/shun/workspace/scala-fp/src/main/scala/ImplicitParamStudy.scala" method="updateTitle" start="393" end="438" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

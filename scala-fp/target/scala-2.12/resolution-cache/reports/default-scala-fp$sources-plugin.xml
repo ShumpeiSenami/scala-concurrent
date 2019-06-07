@@ -6,8 +6,8 @@
 		module="scala-fp$sources"
 		revision="0.1"
 		conf="plugin"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190321092728"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20190607151409"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

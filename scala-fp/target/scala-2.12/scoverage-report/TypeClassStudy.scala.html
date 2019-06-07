@@ -1,0 +1,471 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          TypeClassStudy.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>object TypeClassStudy {
+</span>2 <span style=''>
+</span>3 <span style=''>  trait Additive[A]{
+</span>4 <span style=''>    def plus(a: A, b:A):A
+</span>5 <span style=''>    def zero:A
+</span>6 <span style=''>  }
+</span>7 <span style=''>
+</span>8 <span style=''>  case class Rational(num: Int, den: Int)
+</span>9 <span style=''>
+</span>10 <span style=''>  object Rational{
+</span>11 <span style=''>    implicit object RationalAdditve extends Additive[Rational]{
+</span>12 <span style=''>      def plus(a:Rational, b:Rational):Rational = {
+</span>13 <span style=''>
+</span>14 <span style=''>        if (</span><span style='background: #F0ADAD'>a == zero</span><span style=''>){
+</span>15 <span style=''>          </span><span style='background: #F0ADAD'>b</span><span style=''>
+</span>16 <span style=''>        }else </span><span style='background: #F0ADAD'>if (b == zero){
+</span>17 <span style=''></span><span style='background: #F0ADAD'>          a
+</span>18 <span style=''></span><span style='background: #F0ADAD'>        }else{
+</span>19 <span style=''></span><span style='background: #F0ADAD'>          Rational(a.num * b.den + b.num * a.den, a.den * b.den)
+</span>20 <span style=''></span><span style='background: #F0ADAD'>        }</span><span style=''>
+</span>21 <span style=''>      }
+</span>22 <span style=''>      def zero: Rational = </span><span style='background: #F0ADAD'>Rational(0, 0)</span><span style=''>
+</span>23 <span style=''>    }
+</span>24 <span style=''>  }
+</span>25 <span style=''>
+</span>26 <span style=''>  def sum[A](lst: List[A])(implicit m: Additive[A]):A = </span><span style='background: #F0ADAD'>lst.foldLeft(m.zero)((x, y) =&gt; m.plus(x, y))</span><span style=''>
+</span>27 <span style=''>
+</span>28 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          49
+        </td>
+        <td>
+          283
+          -
+          292
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #F0ADAD">
+          a.==(RationalAdditve.this.zero)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          48
+        </td>
+        <td>
+          288
+          -
+          292
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          TypeClassStudy.Rational.RationalAdditve.zero
+        </td>
+        <td style="background: #F0ADAD">
+          RationalAdditve.this.zero
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          50
+        </td>
+        <td>
+          305
+          -
+          306
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          TypeClassStudy.Rational.RationalAdditve.b
+        </td>
+        <td style="background: #F0ADAD">
+          b
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          62
+        </td>
+        <td>
+          321
+          -
+          438
+        </td>
+        <td>
+          If
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          if (b.==(RationalAdditve.this.zero))
+  a
+else
+  TypeClassStudy.this.Rational.apply(a.num.*(b.den).+(b.num.*(a.den)), a.den.*(b.den))
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          52
+        </td>
+        <td>
+          325
+          -
+          334
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #F0ADAD">
+          b.==(RationalAdditve.this.zero)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          51
+        </td>
+        <td>
+          330
+          -
+          334
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          TypeClassStudy.Rational.RationalAdditve.zero
+        </td>
+        <td style="background: #F0ADAD">
+          RationalAdditve.this.zero
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          53
+        </td>
+        <td>
+          347
+          -
+          348
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          TypeClassStudy.Rational.RationalAdditve.a
+        </td>
+        <td style="background: #F0ADAD">
+          a
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          59
+        </td>
+        <td>
+          414
+          -
+          427
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.*
+        </td>
+        <td style="background: #F0ADAD">
+          a.den.*(b.den)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          399
+          -
+          412
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.*
+        </td>
+        <td style="background: #F0ADAD">
+          b.num.*(a.den)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          55
+        </td>
+        <td>
+          407
+          -
+          412
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          TypeClassStudy.Rational.den
+        </td>
+        <td style="background: #F0ADAD">
+          a.den
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          58
+        </td>
+        <td>
+          422
+          -
+          427
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          TypeClassStudy.Rational.den
+        </td>
+        <td style="background: #F0ADAD">
+          b.den
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          61
+        </td>
+        <td>
+          374
+          -
+          428
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          TypeClassStudy.Rational.apply
+        </td>
+        <td style="background: #F0ADAD">
+          TypeClassStudy.this.Rational.apply(a.num.*(b.den).+(b.num.*(a.den)), a.den.*(b.den))
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          60
+        </td>
+        <td>
+          374
+          -
+          428
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          TypeClassStudy.Rational.apply
+        </td>
+        <td style="background: #F0ADAD">
+          TypeClassStudy.this.Rational.apply(a.num.*(b.den).+(b.num.*(a.den)), a.den.*(b.den))
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          54
+        </td>
+        <td>
+          391
+          -
+          396
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          TypeClassStudy.Rational.den
+        </td>
+        <td style="background: #F0ADAD">
+          b.den
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          57
+        </td>
+        <td>
+          383
+          -
+          412
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td style="background: #F0ADAD">
+          a.num.*(b.den).+(b.num.*(a.den))
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          474
+          -
+          488
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          TypeClassStudy.Rational.apply
+        </td>
+        <td style="background: #F0ADAD">
+          TypeClassStudy.this.Rational.apply(0, 0)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          65
+        </td>
+        <td>
+          587
+          -
+          599
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          TypeClassStudy.Additive.plus
+        </td>
+        <td style="background: #F0ADAD">
+          m.plus(x, y)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          64
+        </td>
+        <td>
+          569
+          -
+          575
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          TypeClassStudy.Additive.zero
+        </td>
+        <td style="background: #F0ADAD">
+          m.zero
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          556
+          -
+          600
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.LinearSeqOptimized.foldLeft
+        </td>
+        <td style="background: #F0ADAD">
+          lst.foldLeft[A](m.zero)(((x: A, y: A) =&gt; m.plus(x, y)))
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
