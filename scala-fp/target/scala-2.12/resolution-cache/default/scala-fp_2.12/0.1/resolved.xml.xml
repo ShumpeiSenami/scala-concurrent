@@ -4,7 +4,7 @@
 		module="scala-fp_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190607150943"
+		publication="20190608052939"
 	>
 		<description>
 		scala-fp
@@ -35,5 +35,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.mockito" name="mockito-core" rev="2.21.0" conf="test->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.12.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
