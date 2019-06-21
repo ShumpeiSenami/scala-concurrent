@@ -2,8 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddae6735-b95b-48d3-b074-bbda499a6b56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$236475471d6236e88dc1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$ac90cfa121a109fdd6cc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$fdfecfb6846964e513f6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/AtomicLongCounterMain.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/CheckThenAct.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Deadlock.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/LongLock.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ReadModifyWrite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/TenThousandNamePrinter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Deadlock$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Deadlock$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Deadlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/TenThousandNamePrinter$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/TenThousandNamePrinter$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/TenThousandNamePrinter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../parsercombinator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parsercombinator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47485f7a75c1ae266ad7$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$ac90cfa121a109fdd6cc$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47485f7a75c1ae266ad7.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$236475471d6236e88dc1.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47485f7a75c1ae266ad7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$87401a62e13ba0c828e1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$236475471d6236e88dc1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$87401a62e13ba0c828e1.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$ac90cfa121a109fdd6cc.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$87401a62e13ba0c828e1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a346f04d20f60623d781$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a346f04d20f60623d781.cache" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$fdfecfb6846964e513f6.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a346f04d20f60623d781.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af0b2820ecf6a1390c6f$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$fdfecfb6846964e513f6$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af0b2820ecf6a1390c6f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af0b2820ecf6a1390c6f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-concurrent-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-concurrent-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-concurrent-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-concurrent-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-concurrent-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala-fp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala-fp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,16 +76,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ThreadStudy.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ThreadRisk.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/TenThousandNamePrinter.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -41,11 +84,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/QuadNumberPrinter.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Deadlock.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ReadModifyWrite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/CheckThenAct.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/LongLock.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/AtomicLongCounterMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -61,6 +143,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/ThreadStudy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ThreadRisk.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/QuadNumberPrinter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/TenThousandNamePrinter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Deadlock.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ReadModifyWrite.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/CheckThenAct.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/LongLock.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/AtomicLongCounterMain.scala" />
       </list>
     </option>
   </component>
@@ -110,7 +198,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561077380991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561135830771" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,43 +213,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuadNumberPrinter">
-    <configuration name="QuadNumberPrinter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="QuadNumberPrinter" />
+  <component name="RunManager" selected="Application.LongLock">
+    <configuration name="CheckThenAct" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CheckThenAct" />
       <module name="scala-concurrent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadRisk" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadRisk" />
+    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Deadlock" />
       <module name="scala-concurrent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStudy" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStudy" />
+    <configuration name="LongLock" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="LongLock" />
       <module name="scala-concurrent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+    <configuration name="ReadModifyWrite" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ReadModifyWrite" />
       <module name="scala-concurrent" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenThousandNamePrinter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TenThousandNamePrinter" />
+      <module name="scala-concurrent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuadNumberPrinter" />
-        <item itemvalue="Application.ThreadRisk" />
-        <item itemvalue="Application.ThreadStudy" />
-        <item itemvalue="Scala Console.Scala Console" />
+        <item itemvalue="Application.LongLock" />
+        <item itemvalue="Application.CheckThenAct" />
+        <item itemvalue="Application.ReadModifyWrite" />
+        <item itemvalue="Application.Deadlock" />
+        <item itemvalue="Application.TenThousandNamePrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +325,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="914" y="23" width="1000" height="938" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -239,14 +335,14 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32978722" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.501182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.501182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,6 +377,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TenThousandNamePrinter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Deadlock.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ReadModifyWrite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Locking/scala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CheckThenAct.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/LongLock.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AtomicLongCounterMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
