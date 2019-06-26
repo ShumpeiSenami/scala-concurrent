@@ -27,9 +27,9 @@ object MemoryVisibility extends App {
  //   println(getNumber)
  // }).start()
 
-  synchronized {
-    number = 2525
-    ready = true
-  }
-}
-var number = 0
+  //synchronized {
+  //number = 2525
+  //  ready = true
+  //}
+  //}
+  // var number = 0
