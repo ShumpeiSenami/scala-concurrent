@@ -4,7 +4,7 @@
 		module="scala-concurrent$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190628153222"
+		publication="20190701043051"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
